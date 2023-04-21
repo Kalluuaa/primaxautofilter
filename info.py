@@ -85,7 +85,7 @@ SELF_DELETE = is_enabled((environ.get('SELF_DELETE','False')), False)
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 For Help Join 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/devils_movie_support"
+DOWNLOAD_TEXT_URL = "https://t.me/Madcinemas_Backup"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"

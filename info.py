@@ -85,11 +85,11 @@ SELF_DELETE = is_enabled((environ.get('SELF_DELETE','False')), False)
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 For Help Join 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/Madcinemas_Backup"
+DOWNLOAD_TEXT_URL = "https://t.me/primax_movie"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/LazyDeveloper"
+CAPTION_BUTTON_URL = "https://t.me/primax_movie"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")

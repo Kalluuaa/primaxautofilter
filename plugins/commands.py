@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Updates 😈', url='https://t.me/Madcinemas_Backup')
+                InlineKeyboardButton('🔔 Updates 😈', url='https://t.me/primax_movie')
             ],
             [
                 InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups 😈', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 😈', url='https://t.me/Madcinemas_Backup')
+            InlineKeyboardButton('🔔 Updates 😈', url='https://t.me/primax_movie')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -67,7 +67,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url='https://t.me/Madcinemas_Backup'
+                    "🤖 Join Updates Channel", url='https://t.me/primax_movie'
                 )
             ]
              ]
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕️ Add Me To Your Groups 😈', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 😈', url='https://t.me/Madcinemas_Backup')
+            InlineKeyboardButton('🔔 Updates 😈', url='https://t.me/primax_movie')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

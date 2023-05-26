@@ -1222,7 +1222,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡Join Main Channel⚡", url='https://t.me/Madcinemas_Backup'),
+	    InlineKeyboardButton(text="⚡Join Main Channel⚡", url='https://t.me/primax_movie'),
         ] 
     )
     if offset != "":

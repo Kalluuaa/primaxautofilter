@@ -80,7 +80,7 @@ URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'b285274b2af8
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '5965340120').split()]
 
 # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 1800))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 18000))
 SELF_DELETE = is_enabled((environ.get('SELF_DELETE','True')), True)
 
 # Download Tutorial Button #
